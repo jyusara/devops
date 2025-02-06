@@ -1,6 +1,7 @@
 # Usar una imagen base específica para Maven y JDK
 FROM maven:3.6.0-jdk-13
 
+
 # Crear el usuario jenkins con un UID específico
 RUN useradd -m -u 1000 -s /bin/bash jenkins
 
